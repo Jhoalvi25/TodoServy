@@ -23,17 +23,17 @@ export default function Dropdown() {
         }
       >
         <ul className={style["ul-dropdown"]}>
-          <Link onClick={toggleMenu} className={style["a-dropdown"]} to="/animes/trending">
+          <Link onClick={toggleMenu} className={style["a-dropdown"]} to="/services">
             <li className={style["li-dropdown"]}>
               <span>¿Que es TodoServy?</span>
             </li>
           </Link>
-          <Link onClick={toggleMenu} className={style["a-dropdown"]} to="/animes/newest">
+          <Link onClick={toggleMenu} className={style["a-dropdown"]} to="/services">
             <li className={style["li-dropdown"]}>
               <span>Hazte <span className={style["prem"]}>Premium</span></span>
             </li>
           </Link>
-          <Link onClick={toggleMenu} className={style["a-dropdown"]} to="/animes">
+          <Link onClick={toggleMenu} className={style["a-dropdown"]} to="/services">
             <li className={style["li-dropdown"]}>
               <span>Contactanos</span>
             </li>

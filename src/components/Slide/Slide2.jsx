@@ -46,7 +46,7 @@ export default function Slide() {
                     className={style["img-container"] + " " + style["fade"]}
                   >
                     {currentImage === index && (
-                      <Link to={`/watch/${elem.id}`}>
+                      <Link to={`/services`}>
                         <img key={index} src={elem.image} alt="img" />
                       </Link>
                     )}
