@@ -1,0 +1,176 @@
+.question-content {
+  margin-top: 100px;
+}
+
+.content-cont {
+  width: 100%;
+  display: flex;
+}
+
+.content1 {
+  width: 40%;
+}
+
+.content2 {
+  width: 60%;
+}
+
+.img-q {
+  height: 350px;
+  width: 300px;
+}
+
+.freq {
+  font-size: 55px;
+  font-weight: 700px;
+}
+
+.data-cont {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+}
+
+.data-box {
+  width: 33.3%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0 100px;
+  border-radius: 40px;
+}
+
+.data-box1 {
+  width: 33.3%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 40px;
+  margin-left: 150px;
+}
+
+.data-box3 {
+  width: 33.3%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 40px;
+  margin-right: 150px;
+}
+
+.number {
+  color: #078bfb;
+  font-size: 50px;
+}
+
+.info-text {
+  font-size: 18px;
+}
+
+/* imagen del CO */
+
+.message-cont{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+}
+
+.co-img{
+    width: 40%;
+}
+
+.co{
+    width: 350px;
+    height: 395px;
+    border-radius: 40px;
+}
+
+
+.message{
+    width: 60%;
+}
+
+.big{
+    font-size: 30px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.name{
+    font-size: 24px;
+    color: #1B1B1B;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.profesion{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+
+/* Responsive */
+
+@media (max-width: 700px){
+
+ 
+  .content-cont{
+    display: contents;
+    width: 100%;
+  }
+
+  .content1{
+    width: 100%;
+  }
+
+  .img-q{
+    width: 200px;
+    height: 250px;
+  }
+
+  .content2{
+    width: 100%;
+  }
+
+  .data-cont{
+    display: contents;
+    width: 100%;
+  }
+
+  .data-box {
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 40px;
+    display: contents;
+  }
+  
+  .data-box1 {
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 40px;
+    display: contents;
+
+  }
+  
+  .data-box3 {
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 40px;
+    display: contents;
+  }
+
+  .message-cont{
+    display: contents;
+    width: 100%;
+  }
+
+  .co{
+    margin-left: 12px;
+  }
+
+  .big{
+    font-size: 20px;
+  }
+
+  .message{
+    width: 100%;
+  }
+
+
+
+}

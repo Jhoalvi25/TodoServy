@@ -1,0 +1,124 @@
+.card {
+  margin-top: 100px;
+  width: 1000px;
+  height: 1200px;
+  display: inline-block;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  border-radius: 20px;
+  border: transparent 10px solid;
+  border-image: linear-gradient(45deg, #06f6c4, #078bfb) 1;
+}
+
+.card__content {
+  margin-top: 60px;
+}
+
+.crown {
+  font-size: 72px;
+  color: #078bfb;
+}
+
+.title-card {
+  font-size: 40px;
+}
+
+.subt-card {
+  font-size: 40px;
+  background: -webkit-linear-gradient(top, #078bfb, #6fecd0);
+  background: linear-gradient(to bottom, #078bfb, #6fecd0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info-card {
+  width: 100%;
+  display: flex;
+}
+
+.content-info {
+  font-size: 22px;
+  font-weight: 600;
+  width: 50%;
+  text-align: justify;
+  margin: 0 50px;
+}
+
+.list {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.plus {
+  color: #06f6c4;
+  margin-right: 20px;
+}
+
+.benefit-list {
+  margin-top: 60px;
+  display: inline-block;
+}
+
+.pre {
+  margin-top: 40px;
+  padding: 10px 50px;
+  border-radius: 28px;
+  border: none;
+  background: linear-gradient(90deg, #4293f7 2%, #70f0cd 100%);
+}
+
+.pre a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 1000px){
+
+  .card{
+    width: 700px;
+    height: 1100px;
+
+  }
+
+}
+
+@media (max-width: 1000px){
+
+  .card{
+    width: 700px;
+    height: 1200px;
+
+  }
+
+  .info-card{
+    display: contents;
+    width: 100%;
+  }
+
+  .content-info{
+    width: 100%;
+    margin: 0px 50px;
+  }
+
+}
+
+@media (max-width: 700px){
+
+  .card{
+    width: 350px;
+    height: 1500px;
+
+  }
+
+  .info-card{
+    display: contents;
+    width: 100%;
+  }
+
+  .content-info{
+    display: contents;
+    width: 100%;
+    margin: 0px 10px;
+  }
+
+}
