@@ -3,6 +3,7 @@
 .options a {
   color: #c4c4c4;
   text-decoration: none;
+  overflow: hidden;
 }
 
 .options a:hover {
@@ -128,88 +129,12 @@
 
 @media (max-width: 700px) {
   .options {
-    display: flex;
-    margin: 0px 10px;
-  }
-
-  .link-rigth {
-    padding: 15px 10px;
-    border: #c4c4c4 2px solid;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
-
-  .link-left {
-    padding: 15px 10px;
-    border: #c4c4c4 2px solid;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-  }
-
-  .link-mid {
-    padding: 15px 10px;
-    border-top: #c4c4c4 2px solid;
-    border-bottom: #c4c4c4 2px solid;
-  }
-}
-
-@media (max-width: 500px) {
-  .options {
-    display: flex;
+    width: 100%;
     margin: 0px 10px;
   }
 
   .link-rigth {
     padding: 15px 5px;
-    border: #c4c4c4 2px solid;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
-
-  .link-left {
-    padding: 15px 5px;
-    border: #c4c4c4 2px solid;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-  }
-
-  .link-mid {
-    padding: 15px 5px;
-    border-top: #c4c4c4 2px solid;
-    border-bottom: #c4c4c4 2px solid;
-  }
-}
-
-@media (max-width: 400px) {
-  .options {
-    display: flex;
-    margin: 0px 10px;
-  }
-
-  .link-rigth {
-    padding: 15px 5px;
-    border: #c4c4c4 2px solid;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
-
-  .link-left {
-    padding: 15px 5px;
-    border: #c4c4c4 2px solid;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-  }
-
-  .link-mid {
-    padding: 15px 5px;
-    border-top: #c4c4c4 2px solid;
-    border-bottom: #c4c4c4 2px solid;
-  }
-}
-
-@media (max-width: 350px) {
-  .link-rigth {
-    padding: 15px 2px;
     border: #c4c4c4 2px solid;
     font-size: 10px;
     border-top-right-radius: 8px;
@@ -217,17 +142,20 @@
   }
 
   .link-left {
-    padding: 15px 2px;
-    font-size: 10px;
+    padding: 15px 10px;
     border: #c4c4c4 2px solid;
+    font-size: 10px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
   }
 
   .link-mid {
-    padding: 15px 2px;
-    font-size: 10px;
+    padding: 15px 10px;
     border-top: #c4c4c4 2px solid;
+    font-size: 10px;
     border-bottom: #c4c4c4 2px solid;
   }
 }
+
+
+
